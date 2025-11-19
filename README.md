@@ -6,8 +6,8 @@ os, shutil, and sys.
 # Quick Start
 
 ```
-git clone
-cd file_sort
+git clone https://github.com/samnne/file_organizer.git
+cd file_organizer
 python3 file_sort.py <file-to-organize> <key-words>
 ```
 
