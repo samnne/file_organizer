@@ -14,7 +14,7 @@ python3 file_sort.py <file-to-organize> <key-words>
 **Key Words**
 
 - "." => To organize by file extention
-- `.<key-word>`` => To organize by key-word
+- `.<key-word>` => To organize by key-word
 
 _Examples_:
 
