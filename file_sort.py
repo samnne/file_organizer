@@ -27,7 +27,7 @@ def sort_files_directory(directory: str, sort_key_word: str = "") -> None:
         if not os.path.isdir(new_dir):
             os.mkdir(new_dir)
             shutil.move(cur_path, f"{new_dir}")
-        elif len(ext.split(".")) > 1 and ext[1 : len(file)] in file.lower():
+        elif len(ext.split(".")) > 1 and ext[1 : len(file)].lower() in file.lower():
             shutil.move(cur_path, f"{new_dir}")
 
 
